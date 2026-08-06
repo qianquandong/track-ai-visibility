@@ -1,0 +1,8 @@
+{
+  "name": "track-ai-visibility",
+  "description": "Track AI-search visibility, prompt coverage, competitors, citations, and Reddit discussions without provider APIs.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jack Qian"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Visibility Tracker"
+  short_description: "Track brand visibility, citations, competitors, and Reddit"
+  default_prompt: "Use $track-ai-visibility to audit my brand visibility and recommend the highest-impact next actions."

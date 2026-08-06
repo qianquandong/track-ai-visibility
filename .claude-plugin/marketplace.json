@@ -1,0 +1,20 @@
+{
+  "name": "qianquandong-tools",
+  "owner": {
+    "name": "Jack Qian"
+  },
+  "metadata": {
+    "description": "Local-first agent tools by Jack Qian"
+  },
+  "plugins": [
+    {
+      "name": "track-ai-visibility",
+      "source": ".",
+      "description": "Track AI-search visibility, prompt coverage, competitors, citations, and Reddit discussions without provider APIs.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jack Qian"
+      }
+    }
+  ]
+}
