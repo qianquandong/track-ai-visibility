@@ -1,5 +1,7 @@
 # Track AI Visibility
 
+**English** | [中文](./README.zh-CN.md)
+
 A local-first Agent Skill for auditing how often a brand appears in AI-assisted search and recommendation surfaces. It works in both Codex and Claude Code, keeps evidence in readable local files, and does not require an OpenAI, Anthropic, CrowdReply, Reddit, or model-provider API key.
 
 ## What it does
@@ -96,22 +98,6 @@ If the Claude CLI is available, validate the plugin and marketplace with:
 
 ```bash
 claude plugin validate .
-```
-
-## 中文说明
-
-这是一个可以直接在 Codex 和 Claude Code 里使用的本地 skill，用来检查品牌在 AI 搜索与推荐结果中的曝光情况。它会追踪 prompt 覆盖率、竞品出现情况、引用来源和 Reddit 讨论，并把证据保存在当前项目的 `.ai-visibility/` 目录中。
-
-整个工具不需要 OpenAI、Anthropic、CrowdReply 或 Reddit API。安装后，你可以直接对 Codex 说：
-
-```text
-用 $track-ai-visibility 检查 example.com 的 AI 可见度，并找出最值得优先补的内容缺口。
-```
-
-在 Claude Code 中则可以输入：
-
-```text
-/track-ai-visibility 检查 example.com 的 AI 可见度。
 ```
 
 ## License
